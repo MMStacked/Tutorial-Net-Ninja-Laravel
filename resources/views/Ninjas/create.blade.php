@@ -1,6 +1,6 @@
 <x-layout> 
 
-<form action="" method="">
+<form action="{{ route('ninjas.store') }}" method="POST">
     {{-- A cross site request forgery --}}
     @csrf
 
